@@ -264,7 +264,7 @@ nav{
 
 .paly-btn {
     text-align: center;
-    margin-top: -300px;
+    margin-top: -460px;
     margin-left: 350px;
     padding: 50px;
 }
@@ -392,6 +392,16 @@ footer{
    margin: 12px;
     font-size: 20px;
 }
+.card-text{
+    display: flex;
+    justify-content: center;
+
+}
+.card-text> div  {
+    margin: 70px;
+    font-size: 20px;
+    margin-top: -18px;
+}
 
 @media screen and (max-width: 576px ) {
      
@@ -464,6 +474,7 @@ footer{
 
 .card-container{
    flex-direction: column;
+   gap: 50px;
 }
 .paly-btn{
   
@@ -507,5 +518,16 @@ footer{
     text-align: center;
  }
  
+ .card-text {
+    flex-direction: column;
+    position: relative;
+ }
+ .card-text>div {
+    margin-top: -980px;
+     
+    margin-bottom: 430px;
 
+    
+ }
+ 
 }
