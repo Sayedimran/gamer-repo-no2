@@ -313,8 +313,85 @@ nav{
    
  }
 
+.icon-pera{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, auto);
+    margin-top: 100px;
+}
+.icon-pera >div{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.icon-pera>div:hover{
+    border: 1px solid blue;
+    border-radius: 50px;
+    padding: 5px 20px;
+}
+
+/* footer css style */
+footer{
+    background: #0B0223;
+}
+
+.footer-icon-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px 8px;
+}
+.footer-icon-text h1{
+    color: #FFF;
+    font-size: 35px;
+}
+ .logo-G  {
+      color: #FF42A5;
+}
+.footer-text1{
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    justify-content: center;
+    
+}
 
 
+.footer-text1>div {
+    color: #FFF;
+    margin: 15px;
+    font-size: 20px;
+
+}
+
+.social-icon1 {
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    justify-content: center;
+    
+}
+.social-icon1 .icon{
+    margin: 15px;
+    margin-top: 50px;
+}
+.footer-symbol{
+    color: gray;
+    text-align: center;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.footer-text2{
+    display: grid;
+    margin: 15px;
+    justify-content: center;
+    
+    grid-template-columns: repeat(8,auto);
+    color: gray;
+}
+.footer-text2>div p {
+   margin: 12px;
+    font-size: 20px;
+}
 
 @media screen and (max-width: 576px ) {
      
@@ -410,5 +487,25 @@ nav{
     height: 200px;
    
  }
+ .icon-pera{
+    grid-template-columns: repeat(3,auto);
+    width: 100px;
+    margin-left: 137px;
+
+ }
+ .icon-pera> div img {
+   height: 20px;
+   
+ }
+ .icon-pera>div  p{
+    font-size: 10px;
+   
+  
+ }
+ .footer-text1{
+   grid-template-columns: repeat(3,auto);
+    text-align: center;
+ }
+ 
 
 }
